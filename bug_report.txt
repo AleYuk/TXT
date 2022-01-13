@@ -1,1 +1,10 @@
-
+ID: FB001
+Summary: Login error.
+Steps to reproduce:
+  1. Go to http:/somebadsite.com/login;
+  2. Write in login field ‘Aleks’;
+  3. Write in password ‘123456qwerty’;
+  4. Click button ‘Login’.
+Actual result: Redirection to http:/shithappens.by
+Expected result: Redirection to privat Aleks cabinet in http:/somebadsite.com
+Severity: S1 Blocker
